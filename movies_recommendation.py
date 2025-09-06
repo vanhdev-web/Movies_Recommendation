@@ -1,4 +1,4 @@
-from ydata_profiling import ProfileReport
+# from ydata_profiling import ProfileReport
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
