@@ -5,7 +5,7 @@
 This repository contains a movie recommendation system built using Python, scikit-learn, pandas, and Streamlit. The system suggests top movies related to a user's favorite movie based on genre similarity. It leverages TF-IDF vectorization and cosine similarity to provide recommendations.
 
 You can try out the website right here ⭐ : https://moives-recommendation-system.streamlit.app/
-![ảnh demo](https://drive.google.com/uc?export=view&id=1dX3Ab5xi9ixS6UpwGp3KfIFRDYv70I5T)
+![ảnh demo](https://drive.google.com/uc?export=view&id=1ILU5TtuWo4NVqNXwe8WL9nqsgRPtPho-)
 ## Features and Functionality
 
 *   **Movie Title Input:** Users can select a movie title from a dropdown list powered by the `movies.csv` file.
