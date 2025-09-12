@@ -2,10 +2,43 @@
 
 ## Description
 
-This repository contains a movie recommendation system built using Python, scikit-learn, pandas, and Streamlit. The system suggests top movies related to a user's favorite movie based on genre similarity. It leverages TF-IDF vectorization and cosine similarity to provide recommendations.
+I've just finised a movie recommendation system built using Python, scikit-learn, pandas, and Streamlit. The system suggests top movies related to a user's favorite movie based on genre similarity. It leverages TF-IDF vectorization and cosine similarity to provide recommendations.
+
+![Demo GIF](https://drive.google.com/uc?export=view&id=1iXnA4EuA-G8G0e059aBiP6152RIBRJv3)
 
 You can try out the website right here ⭐ : https://moives-recommendation-system.streamlit.app/
-![ảnh demo](https://drive.google.com/uc?export=view&id=1ILU5TtuWo4NVqNXwe8WL9nqsgRPtPho-)
+
+# table of contents
+
+- [dataset overview](#dataset-overview)
+- [features and functionality](#features-and-functionality)
+- [technology stack](#technology-stack)
+- [prerequisites](#prerequisites)
+- [installation instructions](#installation-instructions)
+- [usage guide](#usage-guide)
+- [file structure and explanation](#file-structure-and-explanation)
+- [contributing guidelines](#contributing-guidelines)
+- [license information](#license-information)
+- [contact/support information](#contactsupport-information)
+
+## Dataset Overview
+* Dataset Overview  
+![ảnh demo](https://drive.google.com/uc?export=view&id=1fnEfVBgp45tD0LXwPb0845qreeNKfvKD)
+
+
+* Variables  
+![ảnh demo](https://drive.google.com/uc?export=view&id=1_YWWJHFFXR5MapiGxjeTF_4m-tuh8uN7)  
+![ảnh demo](https://drive.google.com/uc?export=view&id=1fjFJByxPM72xv6v5296dKw9DAq9gLz-7)  
+![ảnh demo](https://drive.google.com/uc?export=view&id=1hmh5kxjk5PnxpaCbBQuUE8KKp5sVZV0c)    
+ 
+
+* Tfidf matrix dense  
+![ảnh demo](https://drive.google.com/uc?export=view&id=1esO2Ne9u71MMJe1M40_8FTiLSUP5yyIi)
+
+
+* Cosine_similarity_dense  
+![ảnh demo](https://drive.google.com/uc?export=view&id=1ILU5TtuWo4NVqNXwe8WL9nqsgRPtPho-)  
+
 ## Features and Functionality
 
 *   **Movie Title Input:** Users can select a movie title from a dropdown list powered by the `movies.csv` file.

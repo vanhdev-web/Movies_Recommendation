@@ -18,7 +18,7 @@ data["genres"] = data["genres"].apply(split_genres)
 
 vectorize = TfidfVectorizer()
 tfidf_matrix = vectorize.fit_transform(data["genres"])
-# tfidf_matrix_dense =  pd.DataFrame(tfidf_matrix.todense(), index = data["title"], columns = vectorize.get_feature_names_out())
+tfidf_matrix_dense =  pd.DataFrame(tfidf_matrix.todense(), index = data["title"], columns = vectorize.get_feature_names_out())
 
 cosine_sim = cosine_similarity(tfidf_matrix)
 cosine_sim_dense = pd.DataFrame(cosine_sim, index = data["title"], columns = data["title"])
